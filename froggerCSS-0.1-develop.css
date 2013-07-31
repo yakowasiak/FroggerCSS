@@ -4,3 +4,43 @@
  * 2013 Piotr A. Wasiak / yako.wasiak@gmail.com
  * Licensed under the CC-BY-SA 3.0 License - http://creativecommons.org/licenses/by-sa/3.0/ 
  */
+body {
+font-size:14px;
+margin:0;
+background-color: #fff;
+}
+
+
+/*Typography*/
+
+.big {
+font-size:130%;
+}
+
+.small {
+font-size:80%;
+}
+
+.txt-warning {
+color:#ffcc2f;
+}
+.txt-disabled {
+color:#7d7d7c;
+}
+
+/*Boxes*/
+
+/*Headings*/
+
+/*Menu Bars and menu links*/
+
+/*Footer*/
+
+
+/*Links*/
+a:hover {
+text-decoration:underline;
+cursor: pointer;
+}
+
+/*Opacity*/
