@@ -8,7 +8,31 @@ body {
 font-size:14px;
 margin:0;
 background-color: #fff;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#242424;
 }
+
+/*Horisontal Rules*/
+hr {
+margin-top: 15px;
+margin-bottom: 15px;
+border: 0;
+border-top: 1px solid #dddddd;
+}
+
+.short{
+width:200px;
+}
+
+.medium {
+width:500px;
+}
+
+.long {
+width:700px;
+}
+
+/*Objects and position */
 
 
 /*Typography*/
@@ -27,6 +51,45 @@ color:#ffcc2f;
 .txt-disabled {
 color:#7d7d7c;
 }
+
+.txt-error {
+color:#d61515;
+}
+
+.txt-ok {
+color:#36c011;
+}
+
+.txt-info {
+color:#426dfa;
+}
+
+.txt-left {
+text-align: left;
+}
+
+.txt-right {
+text-align: right;
+}
+
+.txt-center {
+text-align: center;
+}
+
+p {
+margin-top:15px;
+margin-bottom:8px;
+line-height: 1;
+}
+
+code {
+padding: 0px 2px 0px 2px;
+font-size: 95%;
+color: #109e05;
+white-space: nowrap;
+background-color: #eaf9e9;
+}
+
 
 /*Boxes*/
 
