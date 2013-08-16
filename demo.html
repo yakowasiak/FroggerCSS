@@ -123,5 +123,58 @@ Code is simple. It just changes font, color and background. <code>An example &lt
 Here’s to the crazy ones. The rebels. The troublemakers. The ones who see things differently. While some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.
 </pre>
 <hr/>
+<h2>Lists</h2>
+<p>Here, in FroggerCSS we've got some markup for ordered and unordered lists.</p>
+<h3>Unordered</h3>
+<ul>
+<li>Some</li>
+<li>Example</li>
+<li>of</li>
+<li>unordered</li>
+<li>list.</li>
+<ul>
+<li>with</li>
+<li>sub-lists</li>
+</ul>
+<li>right!</li>
+</ul>
+<pre><code>
+&lt;ul&gt;<br/>
+&lt;li&gt;…&lt;/li&gt;<br/>
+&lt;li&gt;…&lt;/li&gt;<br/>
+&lt;/ul&gt;
+</code></pre>
+<h3>Ordered list</h3>
+You can add <code>class="letters"</code> to <code>&lt;ol&gt;</code> style for small latin leter bullet type, or <code>class="roman"</code> for Roman "bullets". Please remember that list types are not inherited by child-lists, so you must apply a style for each <code>&lt;ol&gt;</code> sub-element.
+<ol>
+<li>Some</li>
+<li>Example</li>
+<ol class="roman">
+<li>with</li>
+<li>Roman sub-list</li>
+</ol>
+<li>of</li>
+<li>ordered</li>
+<li>list.</li>
+<ol class="letters">
+<li>with</li>
+<li>sub-lists</li>
+</ol>
+<li>right!</li>
+</ol>
+<pre><code>
+&lt;ol&gt;<br/>
+&lt;li&gt;…&lt;/li&gt;<br/>
+&lt;li&gt;…&lt;/li&gt;<br/>
+&lt;/ol&gt;
+</code></pre>
+<p>Also, you can add <code>&lt;li class="list-inline"&gt;</code> which places all the elements on the single line
+</p>
+<ul class="list-inline">
+<li>This</li>
+<li>is</li>
+<li>Sparta!</li>
+</ul>
+<hr/>
 </body>
 </html>

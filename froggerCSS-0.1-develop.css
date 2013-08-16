@@ -195,14 +195,40 @@ font-family: "Courier New", monospace;
 
 /*Boxes*/
 
-/*Headings*/
-
 /*Menu bars and menu links*/
 
 /*Footer*/
 
 /*Lists*/
 
+ul,ol {
+margin:5px 5px 10px 5px;
+}
+
+.list-unstyled {
+padding-left: 0;
+list-style: none;
+}
+
+.letters {
+list-style:lower-latin;
+}
+
+.roman {
+list-style:upper-roman;
+}
+
+.list-inline {
+padding-left: 0;
+list-style: none;
+}
+
+.list-inline > li {
+padding-right: 5px;
+padding-left: 5px;
+margin:0;
+display: inline-block;
+}
 
 /*Links*/
 a:hover {
@@ -211,6 +237,9 @@ cursor: pointer;
 }
 
 /*Opacity*/
+
+/*Forms*/
+
 
 /*Buttons*/
 
