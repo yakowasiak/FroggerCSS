@@ -4,6 +4,20 @@
  * Copyright 2013 Piotr A. Wasiak / yako.wasiak@gmail.com
  * Licensed under the MIT License - 
  */
+
+ /*
+ TO DO to ver 0.2:
+  - switch to "em" sizes
+  - make dark theme options
+  - test fonts
+  - 8 columns grid
+
+ */
+
+ /*white and dark theme */
+
+
+ /*body, container and grid system */
 body {
 font-size:14px;
 margin:0;
@@ -246,5 +260,9 @@ cursor: pointer;
 /*Tables*/
 
 /*Specials*/
-  /*Floating, semi trasparent div */
+
+/*dockable menu*/
+
+
+/*Floating, semi trasparent div */
 
