@@ -27,7 +27,8 @@
 > Coming soon: jsDelivr and GitHub CDN links
 
 ```html
-<link rel="stylesheet" href="URL_TO_FROGGERCSS_CDN">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yakowasiak/froggercss/frogger.css">
 ```
 
 ---
