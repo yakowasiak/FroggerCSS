@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FroggerCSS Style Guide</title>
+  <link rel="stylesheet" href="frogger.css">
+  <script>
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark-mode');
+    }
+  </script>
+  <style>
+    .theme-switcher {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    section {
+      margin-bottom: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+<button class="btn btn-secondary theme-switcher" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<div class="container" style="padding:4rem 1rem;">
+  <h1 class="text-center">FroggerCSS Style Guide</h1>
+
+  <section>
+    <h2>Typography</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>This is a paragraph.</p>
+    <small>This is a small text.</small>
+  </section>
+
+  <section>
+    <h2>Grid Examples</h2>
+    <div class="row">
+      <div class="col-1"><div class="card text-center">.col-1</div></div>
+      <div class="col-4"><div class="card text-center">.col-4</div></div>
+      <div class="col-1"><div class="card text-center">.col-1</div></div>
+    </div>
+    <div class="row">
+      <div class="col-2"><div class="card text-center">.col-2</div></div>
+      <div class="col-2"><div class="card text-center">.col-2</div></div>
+      <div class="col-2"><div class="card text-center">.col-2</div></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><div class="card text-center">.col-3</div></div>
+      <div class="col-3"><div class="card text-center">.col-3</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Buttons</h2>
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-tertiary">Tertiary Button</button>
+  </section>
+
+  <section>
+    <h2>Forms</h2>
+    <input type="text" placeholder="Text Input">
+    <textarea placeholder="Textarea"></textarea>
+    <select>
+      <option>Select option</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+    </select>
+  </section>
+
+  <section>
+    <h2>Alerts</h2>
+    <div class="alert alert-success">Success Alert</div>
+    <div class="alert alert-error">Error Alert</div>
+    <div class="alert alert-info">Info Alert</div>
+  </section>
+
+  <section>
+    <h2>Card Example</h2>
+    <div class="card">
+      <h3>Card Title</h3>
+      <p>Some quick example text to build on the card content.</p>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
