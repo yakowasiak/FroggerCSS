@@ -1,6 +1,6 @@
 
 /**************************************/
-/* FroggerCSS v0.3                   */
+/* FroggerCSS v0.4                   */
 /**************************************/
 
 /* Reset */
@@ -181,6 +181,49 @@ input:focus, textarea:focus, select:focus {
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
+}
+
+/**************************************/
+/* Tables */
+/**************************************/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+/**************************************/
+/* Navbar */
+/**************************************/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: inherit;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
 }
 
 /**************************************/

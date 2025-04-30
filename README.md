@@ -22,9 +22,7 @@
 
 > Coming soon: Direct download link
 
-**CDN (planned):**
-
-> Coming soon: jsDelivr and GitHub CDN links
+**CDN:**
 
 ```html
 
